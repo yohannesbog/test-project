@@ -47,16 +47,9 @@ After(function (scenario){
                         return (config.browser.closeOnFail) ? world.driver.quit() : true;
                     });
                 } else {
-                    return (config.browser.closeOnFail) ? world.driver.quit() true;
+                    return (config.browser.closeOnFail) ? world.driver.quit() : true;
                 }
             }
         } else return world.driver.quit();
     }
 });
-
-
-
-
-
-
-
